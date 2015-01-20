@@ -1,4 +1,4 @@
-/* line 57, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 35, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -9,37 +9,37 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 68, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 46, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 71, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 49, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 body {
   line-height: 1; }
 
-/* line 74, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 52, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 ol, ul {
   list-style: disc; }
 
-/* line 77, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 55, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 81, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 58, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 85, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 62, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 89, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 66, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 html {
   font-size: 15px; }
 
-/* line 92, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 69, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 body {
   margin-top: 0px;
   font-family: "aktiv-grotesk-std", sans-serif;
@@ -48,11 +48,11 @@ body {
   line-height: 20px;
   -webkit-text-size-adjust: none; }
 
-/* line 106, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 80, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 html, #body, .loading, .C5wrap {
   height: auto; }
 
-/* line 110, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 83, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .modal-gif {
   position: fixed;
   z-index: 1000;
@@ -64,37 +64,37 @@ html, #body, .loading, .C5wrap {
 
 /* When the body has the loading class, we turn
    the scrollbar off with overflow:hidden */
-/* line 124, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 95, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 body.loading-gif {
   overflow: hidden; }
 
 /* Anytime the body has the loading class, our
    modal element will be visible */
-/* line 130, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 101, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 body.loading-gif .modal-gif {
   display: block; }
 
-/* line 135, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 105, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .no-link-boder {
   text-decoration: none;
   color: inherit; }
 
 /* set the text color of the blocks in edit mode  */
-/* line 141, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 112, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 div.ccm-add-block, div.ccm-add-block-global {
   color: red !important; }
 
 /* use if edit mode highlighter is messed up - normally gets messed up by css frameworks - gumby - bootstrap*/
-/* line 144, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 118, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 div#ccm-highlighter {
   z-index: 20; }
 
 /* here you can remove: delete, designer, permissions, theme design and scedule options from add to areas .ccm-icon-delete-menu,  */
-/* line 157, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 130, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 #body #ccm-edit-collection-design #ccm-select-theme, #body .ccm-menu-separator, #body .ccm-icon-design-menu, #body .ccm-icon-permissions-menu, #body .ccm-icon-clock-menu {
   display: none !important; }
 
-/* line 162, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 135, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 #body.admin .ccm-icon-delete-menu, #body.admin #ccm-edit-collection-design #ccm-select-theme, #body.admin .ccm-menu-separator, #body.admin .ccm-icon-design-menu, #body.admin .ccm-icon-permissions-menu, #body.admin .ccm-icon-clock-menu, #body.admin .ccm-icon-custom-template-menu {
   display: block !important; }
 
@@ -108,7 +108,7 @@ div#ccm-highlighter {
 turn off add block to area  
 use remove-add class on the html container!
 */
-/* line 177, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 150, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .remove-add .ccm-add-block {
   display: none; }
 
@@ -116,7 +116,7 @@ use remove-add class on the html container!
 make the blocks in edit mode "float" next to each other  
 use inline-blocks class on the html container!
 */
-/* line 185, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 158, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .inline-blocks div.ccm-block, .inline-blocks .ccm-area, .inline-blocks .ccm-global-area {
   display: inline-block; }
 
@@ -128,16 +128,16 @@ use inline-blocks class on the html container!
   font-weight: normal;
   font-style: normal;
 }  */
-/* line 198, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 171, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .userInEditMode .tagsHere {
   background: #3d8387; }
-  /* line 201, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 173, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .userInEditMode .tagsHere p {
     position: relative !important;
     bottom: 0 !important;
     right: 1px !important; }
 
-/* line 210, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+/* line 180, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
 .C5wrap {
   @font-face {
     font-family: 'Glyphicons Halflings';
@@ -198,12 +198,12 @@ use inline-blocks class on the html container!
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover; */
-  /* 	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden]{display:none} html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;} body{margin:0} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace, serif;font-size:1em} pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word} q{quotes:"\201C" "\201D" "\2018" "\2019"} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-0.5em} sub{bottom:-0.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em} legend{border:0;padding:0;} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;} button,input{line-height:normal} button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;} button[disabled],input[disabled]{cursor:default} input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;} input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box} input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none} button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0} textarea{overflow:auto;vertical-align:top;} table{border-collapse:collapse;border-spacing:0} 
-	// webflow.css
-	*{-moz-box-sizing:border-box;box-sizing:border-box} body{margin:0} img{max-width:100%;vertical-align:middle;display:inline-block} .w-block{display:block} .w-inline-block{display:inline-block} .w-clearfix:before,.w-clearfix:after{display:table;content:'';line-height:0} .w-clearfix:after{clear:both} .w-hidden{display:none} .w-embed:before,.w-embed:after{display:table;content:'';line-height:0} .w-embed:after{clear:both} .w-video{width:100%;position:relative;padding:0}.w-video iframe,.w-video object,.w-video embed{position:absolute;top:0;left:0;width:100%;height:100%} h1,h2,h3,h4,h5,h6{margin:0} p{margin:0} blockquote{margin:0} fieldset{padding:0;margin:0;border:0} label{display:block;margin-bottom:5px;font-weight:bold} button,html input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button} .w-form{margin:0 0 15px} .w-form-done{display:none;padding:10px;background-color:#dbffd1} .w-form-done-show{display:block} .w-form-fail{display:none;margin-top:10px;padding:10px;background-color:#ffdede} .w-form-fail-show{display:block} .w-input{display:block;width:100%;height:38px;padding:8px 12px;margin-bottom:10px;font-size:14px;line-height:1.428571429;color:#555555;vertical-align:middle;background-color:#ffffff;border:1px solid #cccccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}.w-input:-moz-placeholder{color:#999} .w-input::-moz-placeholder{color:#999} .w-input:-ms-input-placeholder{color:#999} .w-input::-webkit-input-placeholder{color:#999} .w-input:focus{border-color:rgba(82,168,236,0.8);outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)} .w-input[disabled],.w-input[readonly],fieldset[disabled] .w-input{cursor:not-allowed;background-color:#4D4D4Deee} textarea.w-input{height:auto} .w-button{display:inline-block;padding:12px;background-color:black;color:white;border:0;line-height:inherit} .w-container{margin-left:auto;margin-right:auto;max-width:940px}.w-container:before,.w-container:after{display:table;content:'';line-height:0} .w-container:after{clear:both} .w-container .w-row{margin-left:-10px;margin-right:-10px} .w-row:before,.w-row:after{display:table;content:'';line-height:0} .w-row:after{clear:both} .w-row .w-row{margin-left:0;margin-right:0} .w-col{position:relative;float:left;width:100%;min-height:1px;padding-left:10px;padding-right:10px}.w-col .w-col{padding-left:0;padding-right:0} .w-col-1{width:8.333333333333332%} .w-col-2{width:16.666666666666664%} .w-col-3{width:25%} .w-col-4{width:33.33333333333333%} .w-col-5{width:41.66666666666667%} .w-col-6{width:50%} .w-col-7{width:58.333333333333336%} .w-col-8{width:66.66666666666666%} .w-col-9{width:75%} .w-col-10{width:83.33333333333334%} .w-col-11{width:91.66666666666666%} .w-col-12{width:100%} .w-col-push-1{left:8.333333333333332%} .w-col-push-2{left:16.666666666666664%} .w-col-push-3{left:25%} .w-col-push-4{left:33.33333333333333%} .w-col-push-5{left:41.66666666666667%} .w-col-push-6{left:50%} .w-col-push-7{left:58.333333333333336%} .w-col-push-8{left:66.66666666666666%} .w-col-push-9{left:75%} .w-col-push-10{left:83.33333333333334%} .w-col-push-11{left:91.66666666666666%} .w-col-pull-1{right:8.333333333333332%} .w-col-pull-2{right:16.666666666666664%} .w-col-pull-3{right:25%} .w-col-pull-4{right:33.33333333333333%} .w-col-pull-5{right:41.66666666666667%} .w-col-pull-6{right:50%} .w-col-pull-7{right:58.333333333333336%} .w-col-pull-8{right:66.66666666666666%} .w-col-pull-9{right:75%} .w-col-pull-10{right:83.33333333333334%} .w-col-pull-11{right:91.66666666666666%} .w-col-offset-1{margin-left:8.333333333333332%} .w-col-offset-2{margin-left:16.666666666666664%} .w-col-offset-3{margin-left:25%} .w-col-offset-4{margin-left:33.33333333333333%} .w-col-offset-5{margin-left:41.66666666666667%} .w-col-offset-6{margin-left:50%} .w-col-offset-7{margin-left:58.333333333333336%} .w-col-offset-8{margin-left:66.66666666666666%} .w-col-offset-9{margin-left:75%} .w-col-offset-10{margin-left:83.33333333333334%} .w-col-offset-11{margin-left:91.66666666666666%} .w-hidden-main{display:none !important} @media screen and (max-width:991px){.w-container{max-width:728px} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:none !important} .w-col-medium-1{width:8.333333333333332%} .w-col-medium-2{width:16.666666666666664%} .w-col-medium-3{width:25%} .w-col-medium-4{width:33.33333333333333%} .w-col-medium-5{width:41.66666666666667%} .w-col-medium-6{width:50%} .w-col-medium-7{width:58.333333333333336%} .w-col-medium-8{width:66.66666666666666%} .w-col-medium-9{width:75%} .w-col-medium-10{width:83.33333333333334%} .w-col-medium-11{width:91.66666666666666%} .w-col-medium-12{width:100%} .w-col-medium-push-1{left:8.333333333333332%} .w-col-medium-push-2{left:16.666666666666664%} .w-col-medium-push-3{left:25%} .w-col-medium-push-4{left:33.33333333333333%} .w-col-medium-push-5{left:41.66666666666667%} .w-col-medium-push-6{left:50%} .w-col-medium-push-7{left:58.333333333333336%} .w-col-medium-push-8{left:66.66666666666666%} .w-col-medium-push-9{left:75%} .w-col-medium-push-10{left:83.33333333333334%} .w-col-medium-push-11{left:91.66666666666666%} .w-col-medium-pull-1{right:8.333333333333332%} .w-col-medium-pull-2{right:16.666666666666664%} .w-col-medium-pull-3{right:25%} .w-col-medium-pull-4{right:33.33333333333333%} .w-col-medium-pull-5{right:41.66666666666667%} .w-col-medium-pull-6{right:50%} .w-col-medium-pull-7{right:58.333333333333336%} .w-col-medium-pull-8{right:66.66666666666666%} .w-col-medium-pull-9{right:75%} .w-col-medium-pull-10{right:83.33333333333334%} .w-col-medium-pull-11{right:91.66666666666666%} .w-col-medium-offset-1{margin-left:8.333333333333332%} .w-col-medium-offset-2{margin-left:16.666666666666664%} .w-col-medium-offset-3{margin-left:25%} .w-col-medium-offset-4{margin-left:33.33333333333333%} .w-col-medium-offset-5{margin-left:41.66666666666667%} .w-col-medium-offset-6{margin-left:50%} .w-col-medium-offset-7{margin-left:58.333333333333336%} .w-col-medium-offset-8{margin-left:66.66666666666666%} .w-col-medium-offset-9{margin-left:75%} .w-col-medium-offset-10{margin-left:83.33333333333334%} .w-col-medium-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:767px){.w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:none !important} .w-row,.w-container .w-row{margin-left:0;margin-right:0} .w-col{width:100%;left:auto;right:auto} .w-col-small-3{width:25%} .w-col-small-4{width:33.33333333333333%} .w-col-small-6{width:50%} .w-col-small-push-1{left:8.333333333333332%} .w-col-small-push-2{left:16.666666666666664%} .w-col-small-push-3{left:25%} .w-col-small-push-4{left:33.33333333333333%} .w-col-small-push-5{left:41.66666666666667%} .w-col-small-push-6{left:50%} .w-col-small-push-7{left:58.333333333333336%} .w-col-small-push-8{left:66.66666666666666%} .w-col-small-push-9{left:75%} .w-col-small-push-10{left:83.33333333333334%} .w-col-small-push-11{left:91.66666666666666%} .w-col-small-pull-1{right:8.333333333333332%} .w-col-small-pull-2{right:16.666666666666664%} .w-col-small-pull-3{right:25%} .w-col-small-pull-4{right:33.33333333333333%} .w-col-small-pull-5{right:41.66666666666667%} .w-col-small-pull-6{right:50%} .w-col-small-pull-7{right:58.333333333333336%} .w-col-small-pull-8{right:66.66666666666666%} .w-col-small-pull-9{right:75%} .w-col-small-pull-10{right:83.33333333333334%} .w-col-small-pull-11{right:91.66666666666666%} .w-col-small-offset-1{margin-left:8.333333333333332%} .w-col-small-offset-2{margin-left:16.666666666666664%} .w-col-small-offset-3{margin-left:25%} .w-col-small-offset-4{margin-left:33.33333333333333%} .w-col-small-offset-5{margin-left:41.66666666666667%} .w-col-small-offset-6{margin-left:50%} .w-col-small-offset-7{margin-left:58.333333333333336%} .w-col-small-offset-8{margin-left:66.66666666666666%} .w-col-small-offset-9{margin-left:75%} .w-col-small-offset-10{margin-left:83.33333333333334%} .w-col-small-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:479px){.w-container{max-width:none} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:inherit !important} .w-hidden-tiny{display:none !important} .w-col{width:100%} .w-col-tiny-3{width:25%} .w-col-tiny-4{width:33.33333333333333%} .w-col-tiny-6{width:50%} .w-col-tiny-push-1{left:8.333333333333332%} .w-col-tiny-push-2{left:16.666666666666664%} .w-col-tiny-push-3{left:25%} .w-col-tiny-push-4{left:33.33333333333333%} .w-col-tiny-push-5{left:41.66666666666667%} .w-col-tiny-push-6{left:50%} .w-col-tiny-push-7{left:58.333333333333336%} .w-col-tiny-push-8{left:66.66666666666666%} .w-col-tiny-push-9{left:75%} .w-col-tiny-push-10{left:83.33333333333334%} .w-col-tiny-push-11{left:91.66666666666666%} .w-col-tiny-pull-1{right:8.333333333333332%} .w-col-tiny-pull-2{right:16.666666666666664%} .w-col-tiny-pull-3{right:25%} .w-col-tiny-pull-4{right:33.33333333333333%} .w-col-tiny-pull-5{right:41.66666666666667%} .w-col-tiny-pull-6{right:50%} .w-col-tiny-pull-7{right:58.333333333333336%} .w-col-tiny-pull-8{right:66.66666666666666%} .w-col-tiny-pull-9{right:75%} .w-col-tiny-pull-10{right:83.33333333333334%} .w-col-tiny-pull-11{right:91.66666666666666%} .w-col-tiny-offset-1{margin-left:8.333333333333332%} .w-col-tiny-offset-2{margin-left:16.666666666666664%} .w-col-tiny-offset-3{margin-left:25%} .w-col-tiny-offset-4{margin-left:33.33333333333333%} .w-col-tiny-offset-5{margin-left:41.66666666666667%} .w-col-tiny-offset-6{margin-left:50%} .w-col-tiny-offset-7{margin-left:58.333333333333336%} .w-col-tiny-offset-8{margin-left:66.66666666666666%} .w-col-tiny-offset-9{margin-left:75%} .w-col-tiny-offset-10{margin-left:83.33333333333334%} .w-col-tiny-offset-11{margin-left:91.66666666666666%}} 
-	img {
-		height: auto;
-	} */
+  /*  article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden]{display:none} html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;} body{margin:0} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace, serif;font-size:1em} pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word} q{quotes:"\201C" "\201D" "\2018" "\2019"} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-0.5em} sub{bottom:-0.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em} legend{border:0;padding:0;} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;} button,input{line-height:normal} button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;} button[disabled],input[disabled]{cursor:default} input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;} input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box} input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none} button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0} textarea{overflow:auto;vertical-align:top;} table{border-collapse:collapse;border-spacing:0} 
+  // webflow.css
+  *{-moz-box-sizing:border-box;box-sizing:border-box} body{margin:0} img{max-width:100%;vertical-align:middle;display:inline-block} .w-block{display:block} .w-inline-block{display:inline-block} .w-clearfix:before,.w-clearfix:after{display:table;content:'';line-height:0} .w-clearfix:after{clear:both} .w-hidden{display:none} .w-embed:before,.w-embed:after{display:table;content:'';line-height:0} .w-embed:after{clear:both} .w-video{width:100%;position:relative;padding:0}.w-video iframe,.w-video object,.w-video embed{position:absolute;top:0;left:0;width:100%;height:100%} h1,h2,h3,h4,h5,h6{margin:0} p{margin:0} blockquote{margin:0} fieldset{padding:0;margin:0;border:0} label{display:block;margin-bottom:5px;font-weight:bold} button,html input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button} .w-form{margin:0 0 15px} .w-form-done{display:none;padding:10px;background-color:#dbffd1} .w-form-done-show{display:block} .w-form-fail{display:none;margin-top:10px;padding:10px;background-color:#ffdede} .w-form-fail-show{display:block} .w-input{display:block;width:100%;height:38px;padding:8px 12px;margin-bottom:10px;font-size:14px;line-height:1.428571429;color:#555555;vertical-align:middle;background-color:#ffffff;border:1px solid #cccccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}.w-input:-moz-placeholder{color:#999} .w-input::-moz-placeholder{color:#999} .w-input:-ms-input-placeholder{color:#999} .w-input::-webkit-input-placeholder{color:#999} .w-input:focus{border-color:rgba(82,168,236,0.8);outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)} .w-input[disabled],.w-input[readonly],fieldset[disabled] .w-input{cursor:not-allowed;background-color:#4D4D4Deee} textarea.w-input{height:auto} .w-button{display:inline-block;padding:12px;background-color:black;color:white;border:0;line-height:inherit} .w-container{margin-left:auto;margin-right:auto;max-width:940px}.w-container:before,.w-container:after{display:table;content:'';line-height:0} .w-container:after{clear:both} .w-container .w-row{margin-left:-10px;margin-right:-10px} .w-row:before,.w-row:after{display:table;content:'';line-height:0} .w-row:after{clear:both} .w-row .w-row{margin-left:0;margin-right:0} .w-col{position:relative;float:left;width:100%;min-height:1px;padding-left:10px;padding-right:10px}.w-col .w-col{padding-left:0;padding-right:0} .w-col-1{width:8.333333333333332%} .w-col-2{width:16.666666666666664%} .w-col-3{width:25%} .w-col-4{width:33.33333333333333%} .w-col-5{width:41.66666666666667%} .w-col-6{width:50%} .w-col-7{width:58.333333333333336%} .w-col-8{width:66.66666666666666%} .w-col-9{width:75%} .w-col-10{width:83.33333333333334%} .w-col-11{width:91.66666666666666%} .w-col-12{width:100%} .w-col-push-1{left:8.333333333333332%} .w-col-push-2{left:16.666666666666664%} .w-col-push-3{left:25%} .w-col-push-4{left:33.33333333333333%} .w-col-push-5{left:41.66666666666667%} .w-col-push-6{left:50%} .w-col-push-7{left:58.333333333333336%} .w-col-push-8{left:66.66666666666666%} .w-col-push-9{left:75%} .w-col-push-10{left:83.33333333333334%} .w-col-push-11{left:91.66666666666666%} .w-col-pull-1{right:8.333333333333332%} .w-col-pull-2{right:16.666666666666664%} .w-col-pull-3{right:25%} .w-col-pull-4{right:33.33333333333333%} .w-col-pull-5{right:41.66666666666667%} .w-col-pull-6{right:50%} .w-col-pull-7{right:58.333333333333336%} .w-col-pull-8{right:66.66666666666666%} .w-col-pull-9{right:75%} .w-col-pull-10{right:83.33333333333334%} .w-col-pull-11{right:91.66666666666666%} .w-col-offset-1{margin-left:8.333333333333332%} .w-col-offset-2{margin-left:16.666666666666664%} .w-col-offset-3{margin-left:25%} .w-col-offset-4{margin-left:33.33333333333333%} .w-col-offset-5{margin-left:41.66666666666667%} .w-col-offset-6{margin-left:50%} .w-col-offset-7{margin-left:58.333333333333336%} .w-col-offset-8{margin-left:66.66666666666666%} .w-col-offset-9{margin-left:75%} .w-col-offset-10{margin-left:83.33333333333334%} .w-col-offset-11{margin-left:91.66666666666666%} .w-hidden-main{display:none !important} @media screen and (max-width:991px){.w-container{max-width:728px} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:none !important} .w-col-medium-1{width:8.333333333333332%} .w-col-medium-2{width:16.666666666666664%} .w-col-medium-3{width:25%} .w-col-medium-4{width:33.33333333333333%} .w-col-medium-5{width:41.66666666666667%} .w-col-medium-6{width:50%} .w-col-medium-7{width:58.333333333333336%} .w-col-medium-8{width:66.66666666666666%} .w-col-medium-9{width:75%} .w-col-medium-10{width:83.33333333333334%} .w-col-medium-11{width:91.66666666666666%} .w-col-medium-12{width:100%} .w-col-medium-push-1{left:8.333333333333332%} .w-col-medium-push-2{left:16.666666666666664%} .w-col-medium-push-3{left:25%} .w-col-medium-push-4{left:33.33333333333333%} .w-col-medium-push-5{left:41.66666666666667%} .w-col-medium-push-6{left:50%} .w-col-medium-push-7{left:58.333333333333336%} .w-col-medium-push-8{left:66.66666666666666%} .w-col-medium-push-9{left:75%} .w-col-medium-push-10{left:83.33333333333334%} .w-col-medium-push-11{left:91.66666666666666%} .w-col-medium-pull-1{right:8.333333333333332%} .w-col-medium-pull-2{right:16.666666666666664%} .w-col-medium-pull-3{right:25%} .w-col-medium-pull-4{right:33.33333333333333%} .w-col-medium-pull-5{right:41.66666666666667%} .w-col-medium-pull-6{right:50%} .w-col-medium-pull-7{right:58.333333333333336%} .w-col-medium-pull-8{right:66.66666666666666%} .w-col-medium-pull-9{right:75%} .w-col-medium-pull-10{right:83.33333333333334%} .w-col-medium-pull-11{right:91.66666666666666%} .w-col-medium-offset-1{margin-left:8.333333333333332%} .w-col-medium-offset-2{margin-left:16.666666666666664%} .w-col-medium-offset-3{margin-left:25%} .w-col-medium-offset-4{margin-left:33.33333333333333%} .w-col-medium-offset-5{margin-left:41.66666666666667%} .w-col-medium-offset-6{margin-left:50%} .w-col-medium-offset-7{margin-left:58.333333333333336%} .w-col-medium-offset-8{margin-left:66.66666666666666%} .w-col-medium-offset-9{margin-left:75%} .w-col-medium-offset-10{margin-left:83.33333333333334%} .w-col-medium-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:767px){.w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:none !important} .w-row,.w-container .w-row{margin-left:0;margin-right:0} .w-col{width:100%;left:auto;right:auto} .w-col-small-3{width:25%} .w-col-small-4{width:33.33333333333333%} .w-col-small-6{width:50%} .w-col-small-push-1{left:8.333333333333332%} .w-col-small-push-2{left:16.666666666666664%} .w-col-small-push-3{left:25%} .w-col-small-push-4{left:33.33333333333333%} .w-col-small-push-5{left:41.66666666666667%} .w-col-small-push-6{left:50%} .w-col-small-push-7{left:58.333333333333336%} .w-col-small-push-8{left:66.66666666666666%} .w-col-small-push-9{left:75%} .w-col-small-push-10{left:83.33333333333334%} .w-col-small-push-11{left:91.66666666666666%} .w-col-small-pull-1{right:8.333333333333332%} .w-col-small-pull-2{right:16.666666666666664%} .w-col-small-pull-3{right:25%} .w-col-small-pull-4{right:33.33333333333333%} .w-col-small-pull-5{right:41.66666666666667%} .w-col-small-pull-6{right:50%} .w-col-small-pull-7{right:58.333333333333336%} .w-col-small-pull-8{right:66.66666666666666%} .w-col-small-pull-9{right:75%} .w-col-small-pull-10{right:83.33333333333334%} .w-col-small-pull-11{right:91.66666666666666%} .w-col-small-offset-1{margin-left:8.333333333333332%} .w-col-small-offset-2{margin-left:16.666666666666664%} .w-col-small-offset-3{margin-left:25%} .w-col-small-offset-4{margin-left:33.33333333333333%} .w-col-small-offset-5{margin-left:41.66666666666667%} .w-col-small-offset-6{margin-left:50%} .w-col-small-offset-7{margin-left:58.333333333333336%} .w-col-small-offset-8{margin-left:66.66666666666666%} .w-col-small-offset-9{margin-left:75%} .w-col-small-offset-10{margin-left:83.33333333333334%} .w-col-small-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:479px){.w-container{max-width:none} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:inherit !important} .w-hidden-tiny{display:none !important} .w-col{width:100%} .w-col-tiny-3{width:25%} .w-col-tiny-4{width:33.33333333333333%} .w-col-tiny-6{width:50%} .w-col-tiny-push-1{left:8.333333333333332%} .w-col-tiny-push-2{left:16.666666666666664%} .w-col-tiny-push-3{left:25%} .w-col-tiny-push-4{left:33.33333333333333%} .w-col-tiny-push-5{left:41.66666666666667%} .w-col-tiny-push-6{left:50%} .w-col-tiny-push-7{left:58.333333333333336%} .w-col-tiny-push-8{left:66.66666666666666%} .w-col-tiny-push-9{left:75%} .w-col-tiny-push-10{left:83.33333333333334%} .w-col-tiny-push-11{left:91.66666666666666%} .w-col-tiny-pull-1{right:8.333333333333332%} .w-col-tiny-pull-2{right:16.666666666666664%} .w-col-tiny-pull-3{right:25%} .w-col-tiny-pull-4{right:33.33333333333333%} .w-col-tiny-pull-5{right:41.66666666666667%} .w-col-tiny-pull-6{right:50%} .w-col-tiny-pull-7{right:58.333333333333336%} .w-col-tiny-pull-8{right:66.66666666666666%} .w-col-tiny-pull-9{right:75%} .w-col-tiny-pull-10{right:83.33333333333334%} .w-col-tiny-pull-11{right:91.66666666666666%} .w-col-tiny-offset-1{margin-left:8.333333333333332%} .w-col-tiny-offset-2{margin-left:16.666666666666664%} .w-col-tiny-offset-3{margin-left:25%} .w-col-tiny-offset-4{margin-left:33.33333333333333%} .w-col-tiny-offset-5{margin-left:41.66666666666667%} .w-col-tiny-offset-6{margin-left:50%} .w-col-tiny-offset-7{margin-left:58.333333333333336%} .w-col-tiny-offset-8{margin-left:66.66666666666666%} .w-col-tiny-offset-9{margin-left:75%} .w-col-tiny-offset-10{margin-left:83.33333333333334%} .w-col-tiny-offset-11{margin-left:91.66666666666666%}} 
+  img {
+    height: auto;
+  } */
   /* .scaling {    
     -webkit-animation-name: scalex;
     -webkit-animation-duration:3s;
@@ -276,13 +276,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endCo
 }
 .oldie .alpha60, .oldie .alpha80, .oldie .white80 {
   background:transparent;
-} */
-  /* #superfish > li {
-min-width: 41px;
-float: left;
-} */
-  /* end mindMap */ }
-  /* line 212, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+} */ }
+  /* line 181, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap canvas {
     width: inherit;
     max-width: 100%;
@@ -5657,12 +5652,12 @@ float: left;
     .C5wrap .hidden-print, .C5wrap tr.hidden-print, .C5wrap th.hidden-print, .C5wrap td.hidden-print {
       display: none !important; }
  }
-  /* line 241, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 208, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .parentdiv:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 242, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 213, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .clearfix:after {
     content: ".";
     display: block;
@@ -5670,1069 +5665,217 @@ float: left;
     visibility: hidden;
     line-height: 0;
     height: 0; }
-  /* line 251, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 221, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .clearfix {
     display: inline-block; }
-  /* line 255, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 224, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap html[xmlns] .clearfix {
     display: block; }
-  /* line 259, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 227, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap * html .clearfix {
     height: 1%; }
-  /* line 262, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 230, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap iframe, .C5wrap object, .C5wrap embed {
     max-width: 100%; }
-  /* line 366, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap a.nav-home {
-    background: url(images/home.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 32px;
-    padding-top: 16px;
-    display: inline-block;
-    /* vertical-align: middle; */
-    float: left;
-    width: 51px; }
-  /* line 384, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap #superfish > li {
-    min-width: 41px; }
-  /* line 392, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 326, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap ::-webkit-input-placeholder {
     color: black; }
-  /* line 395, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 329, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap :-moz-placeholder {
     /* Firefox 18- */
     color: black; }
-  /* line 398, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 334, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap ::-moz-placeholder {
     /* Firefox 19+ */
     color: black; }
-  /* line 401, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 339, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap :-ms-input-placeholder {
     color: black; }
-  /* line 404, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .mbM10 {
-    margin-bottom: -10px !important; }
-  /* line 407, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .width100 {
-    width: 100%; }
-  /* line 410, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .darkBg {
-    background: #000; }
-  /* line 413, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .greyBG {
-    background: #898989; }
-  /* line 416, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 342, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .fLeft {
     float: left; }
-  /* line 419, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 345, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .fRight {
     float: right; }
-  /* line 422, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 348, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .centerThis {
     text-align: center; }
-  /* line 425, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 351, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .alpha {
     padding-left: 0 !important; }
-  /* line 428, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 354, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .omega {
     padding-right: 0 !important; }
-  /* line 432, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .radius4 {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px; }
-  /* line 437, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .radius4b {
-    -webkit-border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px; }
-  /* line 442, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .greyWrap {
-    background: #5FEECE;
-    height: 41px; }
-  /* line 453, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .threeButtons p {
-    font-family: "cs_regular", arial;
-    font-size: 15px;
-    text-transform: uppercase; }
-  /* line 459, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .socialMediaTop {
-    margin-left: 10px;
-    padding-top: 3px; }
-  /* line 465, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .whiteWrap {
-    background: #fff; }
-  /* line 469, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .logoLeft img {
-    width: 247px; }
-  /* line 474, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .telephone {
-    padding-top: 5px;
-    font-size: 20px;
-    display: inline-block; }
-  /* line 480, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .telephone img {
-    height: 34px;
-    width: 34px; }
-  /* line 485, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .telephone p {
-    display: inline-block;
-    color: #515151; }
-  /* line 490, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .emailUs {
-    margin-left: 25px;
-    font-size: 20px;
-    display: inline-block; }
-  /* line 496, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .emailUs img {
-    width: 39px;
-    margin-top: 2px; }
-  /* line 501, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .emailUs p {
-    display: inline-block;
-    margin-left: 2px;
-    color: #515151; }
-  /* line 507, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .contactIcons {
-    margin-right: 3px; }
-  /* line 510, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .contactIcons img {
-    display: inline-block; }
-  /* line 514, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .threeButtons {
-    margin-top: 5px; }
-  /* line 517, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .threeButtons a div {
-    margin-right: 4px; }
-  /* line 520, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .rightSide {
-    margin-top: 10px;
-    text-align: right; }
-  /* line 525, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .headerButton {
-    background: #5FEECE;
-    height: 37px;
-    color: #fff;
-    border-radius: 15px;
-    text-align: center;
-    display: inline-block;
-    margin-left: 2px;
-    border: 2px solid #FC657D;
-    padding: 0 8px;
-    min-width: 128px; }
-    /* line 526, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .headerSass .headerButton p {
-      padding-top: 8px; }
-  /* line 541, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .greyWrapNav {
-    background: #5FEECE; }
-  /* line 547, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .greyWrapNav p {
-    display: inline-block;
-    color: #fff; }
-  /* line 553, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .navigationText {
-    padding-top: 10px; }
-  /* line 557, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .headerSass .navigationText p {
-    margin-right: 60px;
-    margin-left: 16px; }
-  /* line 576, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .footerSass {
-    /*footer*/
-    /*blog*/ }
-    /* line 579, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .threeButtonsFooter p {
-      font-family: "cs_regular", arial;
-      font-size: 15px;
-      text-transform: uppercase; }
-    /* line 584, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass h3.ccm-page-list-title strong {
-      font-size: 19px !important; }
-    /* line 588, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .whiteWrapFooter strong {
-      font-family: "cs_regular", arial;
-      font-size: 15px;
-      text-transform: uppercase; }
-    /* line 594, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .ccm-page-list {
-      margin-top: 24px; }
-      /* line 597, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .footerSass .ccm-page-list p {
-        color: #5FEECE;
-        font-size: 18px; }
-    /* line 607, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .greyWrapThreeButtonsFooter {
-      background: #5FEECE; }
-    /* line 611, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .threeButtonsFooter a div {
-      margin-right: 4px; }
-    /* line 615, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .threeButtonsFooter {
-      padding-top: 4px;
-      padding-bottom: 4px;
-      margin-top: 7px; }
-      /* line 620, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .footerSass .threeButtonsFooter .headerButton {
-        background: #FC657D;
-        height: 37px;
-        color: #fff;
-        border-radius: 15px;
-        text-align: center;
-        clear: both;
-        border: 2px solid #fff;
-        display: inline-block;
-        padding: 0 8px; }
-        /* line 621, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-        .C5wrap .footerSass .threeButtonsFooter .headerButton p {
-          padding-top: 8px; }
-    /* line 642, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .red {
-      color: #FC657D; }
-    /* line 647, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .leftContactInfo {
-      margin-top: 45px;
-      color: #5FEECE;
-      font-size: 18px;
-      margin-left: -30px;
-      display: inline-block;
-      vertical-align: top; }
-    /* line 657, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .leftContactInfo strong {
-      font-size: 24px; }
-    /* line 661, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .leftContactInfo ul {
-      list-style-type: none; }
-    /* line 665, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .rightContactInfo {
-      margin-top: 45px;
-      color: #5FEECE;
-      font-size: 18px;
-      margin-left: 50px;
-      display: inline-block; }
-    /* line 673, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .rightContactInfo strong {
-      font-size: 24px; }
-    /* line 677, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .rightContactInfo ul {
-      list-style-type: none; }
-    /* line 681, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .socialMediaFooter {
-      margin-left: 38px;
-      padding-top: 24px; }
-    /* line 686, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .copyrightPolicy {
-      padding-top: 25px;
-      margin-left: 38px; }
-    /* line 693, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .ccm-page-list-title {
-      background: url(images/arrow1.png);
-      background-repeat: no-repeat;
-      padding-left: 34px; }
-    /* line 699, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .ccm-page-list-title {
-      color: #5FEECE; }
-    /* line 702, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .pageItem a {
-      color: #428bca; }
-    /* line 706, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .blogPostsLine {
-      clear: both;
-      border-bottom: 1px dashed #FC657D;
-      padding: 10px 0; }
-    /* line 712, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .blogDate {
-      color: #FC657D !important; }
-    /* line 743, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .tagsHere p {
-      bottom: 70px;
-      right: 76px;
-      position: absolute;
-      font-family: "museo", serif;
-      color: #fff;
-      font-size: 24px;
-      font-weight: 700;
-      z-index: 2; }
-    /* line 1, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-    .C5wrap .footerSass .social-block-original {
-      text-align: left;
-      clear: both;
-      margin-top: 25px;
-      margin-bottom: 38px; }
-      /* line 2, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block-original .social-icons li a:hover {
-        background-position: 0 0px !important; }
-      /* line 12, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block-original .social-block-inner {
-        /*  float: right; */
-        color: #fff;
-        padding: 4px 2px 2px 4px;
-        text-align: center; }
-        /* line 20, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons {
-          padding: 0 !important;
-          margin: 0 !important;
-          list-style-type: none !important; }
-          /* line 22, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-          .C5wrap .footerSass .social-block-original .social-block-inner .social-icons ul {
-            -webkit-transition: all 0.3s ease 0s;
-            -moz-transition: all 0.3s ease 0s;
-            -o-transition: all 0.3s ease 0s;
-            transition: all 0.3s ease 0s;
-            padding: 0 !important;
-            margin: 0 !important; }
-        /* line 35, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li {
-          float: left !important;
-          margin-right: 0px !important;
-          margin-bottom: 15px !important;
-          padding: 0px !important;
-          display: inline !important;
-          width: auto !important; }
-        /* line 44, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li a {
-          -webkit-transition: all 0.3s ease 0s;
-          -moz-transition: all 0.3s ease 0s;
-          -o-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
-          display: block !important;
-          float: left !important;
-          height: 100% !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          width: 47px !important;
-          height: 51px !important;
-          text-indent: -9999px !important; }
-        /* line 59, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li a {
-          background-color: transparent; }
-        /* line 62, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.aim a {
-          background: url(images/aim.png) no-repeat 0 5px; }
-        /* line 65, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.aim a:hover {
-          /* background-color: #e95a00; */ }
-        /* line 68, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.apple a {
-          background: url(images/apple.png) no-repeat 0 5px; }
-        /* line 71, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.apple a:hover {
-          background-color: #606060; }
-        /* line 74, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.behance a {
-          background: url(images/behance.png) no-repeat 0 5px; }
-        /* line 77, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.behance a:hover {
-          background-color: #18a3fe; }
-        /* line 80, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.blogger a {
-          background: url(images/blogger.png) no-repeat 0 5px; }
-        /* line 83, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.blogger a:hover {
-          background-color: #fb913f; }
-        /* line 86, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.cargo a {
-          background: url(images/cargo.png) no-repeat 0 5px; }
-        /* line 90, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.delicious a {
-          background: url(images/delicious.png) no-repeat 0 5px; }
-        /* line 93, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.facebook a {
-          background: url(images/facebook.png) no-repeat 0 5px; }
-        /* line 99, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.flickr a {
-          background: url(images/flickr.png) no-repeat 0 5px; }
-        /* line 105, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.google a {
-          background: url(images/google.png) no-repeat 0 5px; }
-        /* line 108, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.google a:hover {
-          background-color: #dd4b39; }
-        /* line 111, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.googleplus a {
-          background: url(images/googleplus.png) no-repeat 0 5px; }
-        /* line 114, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.googleplus a:hover {
-          background-color: #d94a39; }
-        /* line 117, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.html5 a {
-          background: url(images/html5.png) no-repeat 0 5px; }
-        /* line 120, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.html5 a:hover {
-          background-color: #f3642c; }
-        /* line 123, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.linkedin a {
-          background: url(images/linkedin.png) no-repeat 0 5px; }
-        /* line 129, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.orkut a {
-          background: url(images/orkut.png) no-repeat 0 5px; }
-        /* line 132, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.orkut a:hover {
-          background-color: #ed2590; }
-        /* line 135, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.paypal a {
-          background: url(images/paypal.png) no-repeat 0 5px; }
-        /* line 138, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.paypal a:hover {
-          background-color: #32689a; }
-        /* line 141, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.picasa a {
-          background: url(images/picasa.png) no-repeat 0 5px; }
-        /* line 144, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.picasa a:hover {
-          background-color: #444; }
-        /* line 147, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.pinterest a {
-          background: url(images/pinterest.png) no-repeat 0 5px; }
-        /* line 153, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.rss a {
-          background: url(images/rss.png) no-repeat 0 5px; }
-        /* line 156, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.rss a:hover {
-          background-color: #fe9900; }
-        /* line 159, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.skype a {
-          background: url(images/skype.png) no-repeat 0 5px; }
-        /* line 162, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.skype a:hover {
-          background-color: #18b7f1; }
-        /* line 165, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.tumblr a {
-          background: url(images/tumblr.png) no-repeat 0 5px; }
-        /* line 168, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.tumblr a:hover {
-          background-color: #3a5976; }
-        /* line 171, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.twitter a {
-          background: url(images/twitter.png) no-repeat 0 5px; }
-        /* line 177, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.vimeo a {
-          background: url(images/vimeo.png) no-repeat 0 5px; }
-        /* line 180, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.vimeo a:hover {
-          background-color: #62a0ad; }
-        /* line 183, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.wordpress a {
-          background: url(images/wordpress.png) no-repeat 0 5px; }
-        /* line 186, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.wordpress a:hover {
-          background-color: #464646; }
-        /* line 190, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.yelp a {
-          background: url(images/yelp.png) no-repeat 0 5px; }
-        /* line 193, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.yelp a:hover {
-          background-color: #c41200; }
-        /* line 196, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.youtube a {
-          background: url(images/youtube.png) no-repeat 0 5px; }
-        /* line 199, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block-original .social-block-inner .social-icons li.youtube a:hover {
-          background-color: #f45750; }
-    /* line 206, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-    .C5wrap .footerSass .fRightImportant {
-      float: right !important; }
-    @media (max-width: 775px) {
-      /* line 216, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .socialMarginFix, .C5wrap .footerSass .LeftSocialMarginFix {
-        margin-top: 8px;
-        margin-bottom: -5px; }
- }
-    @media (max-width: 991px) {
-      /* line 223, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block {
-        text-align: center;
-        display: inline-block;
-        clear: none; }
-
-      /* line 228, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block-inner {
-        display: inline-block; }
- }
-    /* line 234, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-    .C5wrap .footerSass .social-block-inner {
-      /* display:none; */ }
-    /* line 241, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-    .C5wrap .footerSass .social-block {
-      text-align: right;
-      clear: both;
-      margin-top: -62px;
-      margin-bottom: 38px; }
-      /* line 250, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block .social-block-inner {
-        /*  float: right; */
-        color: #fff;
-        padding: 4px 2px 2px 4px;
-        text-align: center; }
-        /* line 258, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons {
-          padding: 0 !important;
-          margin: 0 !important;
-          list-style-type: none !important; }
-          /* line 260, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-          .C5wrap .footerSass .social-block .social-block-inner .social-icons ul {
-            -webkit-transition: all 0.3s ease 0s;
-            -moz-transition: all 0.3s ease 0s;
-            -o-transition: all 0.3s ease 0s;
-            transition: all 0.3s ease 0s;
-            padding: 0 !important;
-            margin: 0 !important; }
-            /* line 267, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-            .C5wrap .footerSass .social-block .social-block-inner .social-icons ul:hover {
-              -webkit-box-shadow: -2px 53px 33px 9px;
-              -moz-box-shadow: -2px 53px 33px 9px;
-              box-shadow: -2px 53px 33px 9px; }
-        /* line 275, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li {
-          float: left !important;
-          margin-right: 2px !important;
-          margin-bottom: 2px !important;
-          padding: 0px !important;
-          display: inline !important;
-          width: auto !important; }
-        /* line 284, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li a {
-          -webkit-transition: all 0.3s ease 0s;
-          -moz-transition: all 0.3s ease 0s;
-          -o-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
-          display: block !important;
-          float: left !important;
-          height: 100% !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          width: 47px !important;
-          height: 51px !important;
-          text-indent: -9999px !important; }
-        /* line 299, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li a {
-          background-color: transparent; }
-        /* line 302, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.aim a {
-          background: url(images/aim.png) no-repeat 0 5px; }
-        /* line 305, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.aim a:hover {
-          /* background-color: #e95a00; */ }
-        /* line 308, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.apple a {
-          background: url(images/apple.png) no-repeat 0 5px; }
-        /* line 311, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.apple a:hover {
-          background-color: #606060; }
-        /* line 314, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.behance a {
-          background: url(images/behance.png) no-repeat 0 5px; }
-        /* line 317, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.behance a:hover {
-          background-color: #18a3fe; }
-        /* line 320, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.blogger a {
-          background: url(images/blogger.png) no-repeat 0 5px; }
-        /* line 323, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.blogger a:hover {
-          background-color: #fb913f; }
-        /* line 326, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.cargo a {
-          background: url(images/cargo.png) no-repeat 0 5px; }
-        /* line 330, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.delicious a {
-          background: url(images/delicious.png) no-repeat 0 5px; }
-        /* line 333, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.facebook a {
-          background: url(images/facebook.png) no-repeat 0 5px; }
-        /* line 339, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.flickr a {
-          background: url(images/flickr.png) no-repeat 0 5px; }
-        /* line 345, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.google a {
-          background: url(images/google.png) no-repeat 0 5px; }
-        /* line 348, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.google a:hover {
-          background-color: #dd4b39; }
-        /* line 351, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.googleplus a {
-          background: url(images/googleplus.png) no-repeat 0 5px; }
-        /* line 354, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.googleplus a:hover {
-          background-color: #d94a39; }
-        /* line 357, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.html5 a {
-          background: url(images/html5.png) no-repeat 0 5px; }
-        /* line 360, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.html5 a:hover {
-          background-color: #f3642c; }
-        /* line 363, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.linkedin a {
-          background: url(images/linkedin.png) no-repeat 0 5px; }
-        /* line 369, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.orkut a {
-          background: url(images/orkut.png) no-repeat 0 5px; }
-        /* line 372, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.orkut a:hover {
-          background-color: #ed2590; }
-        /* line 375, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.paypal a {
-          background: url(images/paypal.png) no-repeat 0 5px; }
-        /* line 378, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.paypal a:hover {
-          background-color: #32689a; }
-        /* line 381, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.picasa a {
-          background: url(images/picasa.png) no-repeat 0 5px; }
-        /* line 384, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.picasa a:hover {
-          background-color: #444; }
-        /* line 387, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.pinterest a {
-          background: url(images/pinterest.png) no-repeat 0 5px; }
-        /* line 390, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.pinterest a:hover {
-          background-color: #cb2027; }
-        /* line 393, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.rss a {
-          background: url(images/rss.png) no-repeat 0 5px; }
-        /* line 396, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.rss a:hover {
-          background-color: #fe9900; }
-        /* line 399, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.skype a {
-          background: url(images/skype.png) no-repeat 0 5px; }
-        /* line 402, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.skype a:hover {
-          background-color: #18b7f1; }
-        /* line 405, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.tumblr a {
-          background: url(images/tumblr.png) no-repeat 0 5px; }
-        /* line 408, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.tumblr a:hover {
-          background-color: #3a5976; }
-        /* line 411, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.twitter a {
-          background: url(images/twitter.png) no-repeat 0 5px; }
-        /* line 417, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.vimeo a {
-          background: url(images/vimeo.png) no-repeat 0 5px; }
-        /* line 420, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.vimeo a:hover {
-          background-color: #62a0ad; }
-        /* line 423, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.wordpress a {
-          background: url(images/wordpress.png) no-repeat 0 5px; }
-        /* line 426, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.wordpress a:hover {
-          background-color: #464646; }
-        /* line 430, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.yelp a {
-          background: url(images/yelp.png) no-repeat 0 5px; }
-        /* line 433, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.yelp a:hover {
-          background-color: #c41200; }
-        /* line 436, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.youtube a {
-          background: url(images/youtube.png) no-repeat 0 5px; }
-        /* line 439, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-        .C5wrap .footerSass .social-block .social-block-inner .social-icons li.youtube a:hover {
-          background-color: #f45750; }
-    @media (max-width: 775px) {
-      /* line 454, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .socialMarginFix, .C5wrap .footerSass .LeftSocialMarginFix {
-        margin-top: 8px;
-        margin-bottom: -5px; }
- }
-    @media (max-width: 991px) {
-      /* line 461, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block {
-        text-align: center;
-        display: inline-block;
-        clear: none; }
-
-      /* line 466, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-      .C5wrap .footerSass .social-block-inner {
-        display: inline-block; }
- }
-    /* line 471, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/social-block */
-    .C5wrap .footerSass .social-block-inner {
-      /* display:none; */ }
-    @media (max-width: 991px) {
-      /* line 775, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .footerSass .sf-menu {
-        float: none; }
- }
-    /* line 790, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .footerStyles p {
-      color: #fff;
-      font-size: 13px;
-      line-height: 22px; }
-    /* line 792, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .footerSass .footerLinks {
-      padding: 20px 0 60px; }
-      /* line 794, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .footerSass .footerLinks li {
-        list-style: none;
-        display: block;
-        text-align: left;
-        margin-bottom: 2px; }
-        /* line 799, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-        .C5wrap .footerSass .footerLinks li a {
-          color: #fff;
-          font-size: 15px;
-          line-height: 20px; }
-  /* line 815, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .themeFooter {
-    /* background: url("images/whiteBg.jpg");
-background-position: 50%; */ }
-  /* line 838, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .pageType-default {
-    /*benefitSection*/
-    /*mainContentSec*/
-    /*trump card*/ }
-    /* line 842, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default #my-options {
-      padding: 15px;
-      width: 535px;
-      margin: 0 auto;
-      margin-top: 20px;
-      background: #F3F3F3;
-      /**
+  /* line 360, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  .C5wrap .pageType-default #my-options {
+    padding: 15px;
+    width: 535px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #F3F3F3;
+    /**
  * Container/Target Styles
 */ }
-      /* line 848, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options hr {
-        border-top: 1px solid #488FD0; }
-      /* line 854, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .productPickerTitle {
-        font-size: 25px; }
-      /* line 857, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .chooseStuffTitle {
-        font-size: 20px; }
-      /* line 861, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .loadingtext {
-        margin-bottom: 10px;
-        font-size: 26px; }
-      /* line 868, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options input:active, .C5wrap .pageType-default #my-options input:focus, .C5wrap .pageType-default #my-options select:focus, .C5wrap .pageType-default #my-options select:active {
-        outline: none; }
-      /* line 871, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .searchOptions {
-        margin-top: 10px; }
-        /* line 873, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-        .C5wrap .pageType-default #my-options .searchOptions p {
-          font-size: 19px;
-          margin-bottom: 15px;
-          margin-left: 5px; }
-      /* line 879, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .searchBtn {
-        display: inline-block;
-        height: 40px;
-        background: #FFF;
-        -moz-border-radius: 22px;
-        -webkit-border-radius: 22px;
-        border-radius: 22px;
-        font-size: 16px;
-        font-weight: 300;
-        cursor: pointer;
-        font-family: 'Helvetica Neue', arial, sans-serif;
-        color: #488FD0;
-        margin-bottom: 10px; }
-      /* line 893, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options button:focus {
-        outline: 0 none; }
-      /* line 896, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options select {
-        text-align: center;
-        width: 100%;
-        min-height: 33px;
+    /* line 366, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options hr {
+      border-top: 1px solid #488FD0; }
+    /* line 369, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .productPickerTitle {
+      font-size: 25px; }
+    /* line 372, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .chooseStuffTitle {
+      font-size: 20px; }
+    /* line 375, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .loadingtext {
+      margin-bottom: 10px;
+      font-size: 26px; }
+    /* line 379, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options input:active, .C5wrap .pageType-default #my-options input:focus, .C5wrap .pageType-default #my-options select:focus, .C5wrap .pageType-default #my-options select:active {
+      outline: none; }
+    /* line 382, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .searchOptions {
+      margin-top: 10px; }
+      /* line 384, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      .C5wrap .pageType-default #my-options .searchOptions p {
         font-size: 19px;
-        background: #F3F3F3;
-        color: #488FD0;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
-        border-radius: 4px; }
-      /* line 911, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options #Container {
-        position: relative; }
-      /* line 914, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options #Container .mix {
-        width: 100%;
-        display: none;
-        padding: 5px 0;
-        top: 14px;
-        left: 0;
-        min-height: 50px;
-        -webkit-backface-visibility: hidden;
-        -webkit-transform-origin: 50% 0; }
-        /* line 924, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-        .C5wrap .pageType-default #my-options #Container .mix h2 {
-          margin: 0 0 13px 8px;
-          font-size: 23px !important; }
-      /* line 933, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox {
-        position: relative;
-        cursor: pointer;
-        margin-bottom: 9px !important;
-        display: inline; }
-      /* line 939, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options fieldset {
-        background: #fff;
-        padding: 5px 7px 6px;
-        border-radius: 6px;
-        border: solid 1px #D6D6D6; }
-      /* line 945, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .optionsTitle {
-        font-size: 16px;
-        color: #FC657D;
-        text-transform: capitalize; }
-      /* line 950, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox input[type="checkbox"] {
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        cursor: pointer;
-        margin: 0;
-        opacity: 0;
-        z-index: 1; }
-      /* line 963, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox label {
-        display: inline-block;
-        vertical-align: top;
-        text-align: left;
-        margin: 0 16px 0 3px; }
-      /* line 971, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox label:before, .C5wrap .pageType-default #my-options .checkbox label:after {
-        content: '';
-        display: block;
-        position: absolute; }
-      /* line 977, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox label:before {
-        left: 0;
-        top: 0;
-        width: 18px;
-        height: 18px;
-        margin-right: 10px;
-        background: #ddd;
-        border-radius: 3px; }
-      /* line 987, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options fieldset.checks .checkbox label:after {
-        content: '';
-        position: absolute;
-        top: 4px;
-        left: 4px;
-        width: 10px;
-        height: 10px;
-        border-radius: 2px;
-        background: #fff;
-        opacity: 0;
-        pointer-events: none; }
-      /* line 1000, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox input:checked ~ label:after {
-        opacity: 1; }
-      /* line 1004, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .pageType-default #my-options .checkbox input:focus ~ label:before {
-        background: #eee; }
-    /* line 1023, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background: url(images/whileTranz.png);
-      width: 215px;
-      margin-right: 122px;
-      height: 300px; }
-    /* line 1035, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .submitBg {
-      background: #fff;
-      padding: 14px 0; }
-    /* line 1039, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm label, .C5wrap .pageType-default .contactUsForm input {
-      display: block; }
-    /* line 1043, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input {
-      margin-bottom: 24px;
-      padding: 4px 10px;
-      width: 87.5%; }
-    /* line 1049, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .fields {
-      margin-left: 22px;
-      margin-top: 20px; }
-    /* line 1054, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .submit {
-      margin: 0 auto;
-      background: #FC657D;
-      border: 2px solid #5FEECE;
-      color: #fff;
-      -webkit-box-shadow: 0 6px 0px -2px #000;
-      -moz-box-shadow: 0 6px 0px -2px #000;
-      box-shadow: 0 6px 0px -2px #000;
-      width: inherit;
-      padding: 6px 5px; }
-    /* line 1066, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input.large {
-      display: block; }
-    /* line 1070, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input.small {
-      display: none; }
-    /* line 1076, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .greyWrap h2 {
-      margin-top: 2px;
-      color: #fff;
-      font-family: "cs_regular", arial; }
-    /* line 1082, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconBenefits {
-      text-align: center; }
-    /* line 1089, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages {
+        margin-bottom: 15px;
+        margin-left: 5px; }
+    /* line 390, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .searchBtn {
       display: inline-block;
-      padding-right: 10px;
-      width: 16%; }
-    /* line 1095, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages img {
-      width: 54px;
-      margin: 40px 40px 20px 40px; }
-    /* line 1100, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages p {
-      margin-bottom: 40px; }
-    /* line 1103, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages img {
-      width: 60px; }
-    /* line 1107, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages p {
-      display: inline-table;
+      height: 40px;
+      background: #FFF;
+      -moz-border-radius: 22px;
+      -webkit-border-radius: 22px;
+      border-radius: 22px;
       font-size: 16px;
-      color: #5FEECE; }
-    /* line 1115, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .thirdSecBg {
-      background: #d6d6d6; }
-    /* line 1119, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mapBg {
-      background-image: url(images/backgroundMap.png); }
-    /* line 1124, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mainContentBg {
-      background: #fff;
-      border-radius: 15px;
-      border: 1px solid #FC657D;
-      -webkit-box-shadow: 0px 0px 8px 0px;
-      -moz-box-shadow: 0px 0px 8px 0px;
-      box-shadow: 0px 0px 8px 0px;
-      margin-left: 30px;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      min-height: 280px; }
-    /* line 1137, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mainContentHead {
-      background: #5FEECE;
-      color: #fff;
-      border-radius: 15px;
-      border: 1px solid #FC657D; }
-    /* line 1144, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mainContentHead h2 {
-      margin: 8px;
-      font-family: 'cs_regular', arial; }
-    /* line 1150, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mainContentSec {
-      background: #fff;
-      border-radius: 15px;
-      padding: 10px; }
-    /* line 1159, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCard span {
-      padding-top: 10px !important;
-      width: 45%;
-      display: inline-block;
-      vertical-align: top; }
-    /* line 1165, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .overflow {
-      background-position: 48% 50% !important; }
-    /* line 1169, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoLeft {
-      text-align: right;
-      margin-right: 10px; }
-    /* line 1173, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoRight {
-      text-align: left;
-      margin-left: 10px; }
-    /* line 1177, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardTop {
-      background: #fff;
-      border-radius: 15px; }
-    /* line 1181, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpTextOutside {
-      height: 230px;
-      overflow: auto; }
-    /* line 1185, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .companyLogo {
+      font-weight: 300;
+      cursor: pointer;
+      font-family: 'Helvetica Neue', arial, sans-serif;
+      color: #488FD0;
+      margin-bottom: 10px; }
+    /* line 404, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options button:focus {
+      outline: 0 none; }
+    /* line 407, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options select {
       text-align: center;
-      border-bottom: solid 4px #5FEECE;
-      border-radius: 11px;
-      height: 129px; }
-    /* line 1192, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .companyLogo img {
-      border-radius: 15px;
-      width: 187px; }
-    /* line 1197, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardBG {
-      background: #FC657D;
-      border-radius: 15px; }
-    /* line 1201, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCard {
-      background-image: url(images/trumpBg.png);
-      background-position: 50%;
-      background-repeat: repeat-y;
-      border-radius: 15px;
-      border: 1px solid #e51c26;
-      -webkit-box-shadow: 0px 0px 8px 0px #3D3D3D;
-      -moz-box-shadow: 0px 0px 8px 0px #3D3D3D;
-      box-shadow: 0px 0px 8px 0px #3D3D3D;
-      margin-top: 30px;
-      margin-bottom: 30px; }
-    /* line 1217, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpText {
-      text-align: center; }
-    /* line 1220, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoLeft {
-      color: #fff;
-      padding-top: 10px; }
-    /* line 1225, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoLeft ul {
-      list-style-type: none; }
-    /* line 1229, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardLine {
-      background: url(images/line.png);
-      background-repeat: no-repeat; }
-    /* line 1235, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoRight {
+      width: 100%;
+      min-height: 33px;
+      font-size: 19px;
+      background: #F3F3F3;
+      color: #488FD0;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px; }
+    /* line 422, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options #Container {
+      position: relative; }
+    /* line 425, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options #Container .mix {
+      width: 100%;
+      display: none;
+      padding: 5px 0;
+      top: 14px;
+      left: 0;
+      min-height: 50px;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform-origin: 50% 0; }
+      /* line 434, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      .C5wrap .pageType-default #my-options #Container .mix h2 {
+        margin: 0 0 13px 8px;
+        font-size: 23px !important; }
+    /* line 439, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox {
+      position: relative;
+      cursor: pointer;
+      margin-bottom: 9px !important;
+      display: inline; }
+    /* line 445, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options fieldset {
+      background: #fff;
+      padding: 5px 7px 6px;
+      border-radius: 6px;
+      border: solid 1px #D6D6D6; }
+    /* line 451, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .optionsTitle {
+      font-size: 16px;
+      color: #FC657D;
+      text-transform: capitalize; }
+    /* line 456, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox input[type="checkbox"] {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+      margin: 0;
+      opacity: 0;
+      z-index: 1; }
+    /* line 468, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox label {
       display: inline-block;
-      color: #fff;
-      padding-top: 10px; }
-    /* line 1241, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpCardInfoRight ul {
-      list-style-type: none; }
-  /* line 1262, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      vertical-align: top;
+      text-align: left;
+      margin: 0 16px 0 3px; }
+    /* line 474, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox label:before, .C5wrap .pageType-default #my-options .checkbox label:after {
+      content: '';
+      display: block;
+      position: absolute; }
+    /* line 479, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox label:before {
+      left: 0;
+      top: 0;
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+      background: #ddd;
+      border-radius: 3px; }
+    /* line 488, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options fieldset.checks .checkbox label:after {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      background: #fff;
+      opacity: 0;
+      pointer-events: none; }
+    /* line 500, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox input:checked ~ label:after {
+      opacity: 1; }
+    /* line 503, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    .C5wrap .pageType-default #my-options .checkbox input:focus ~ label:before {
+      background: #eee; }
+  /* line 510, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .pageType-mix {
     min-height: 500px;
     margin: 20px 0;
     /**
  * Fail message styles
  */ }
-    /* line 1266, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 513, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .mixInner {
       opacity: 0; }
-    /* line 1269, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 516, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .marginPadding {
       margin-left: 15px;
       margin-right: -15px; }
-    /* line 1276, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 520, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .mixOuter {
       position: relative; }
-    /* line 1279, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 523, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix p.waitForIt {
       text-align: center;
       color: #515151;
       font-size: 26px;
       margin-top: 30px; }
-    /* line 1285, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 529, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .objLoader {
       display: block;
       position: absolute;
@@ -6743,26 +5886,26 @@ background-position: 50%; */ }
       margin-top: -10px/2;
       width: 5px;
       height: 5px; }
-    /* line 1296, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 540, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .btn-primary {
       width: 100%; }
-    /* line 1299, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 543, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox {
       position: relative;
       cursor: pointer;
       margin-bottom: 9px !important; }
-    /* line 1304, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 548, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix #Filters fieldset {
       background: #fff;
       padding: 5px 7px 6px;
       border-radius: 6px;
       border: solid 1px #D6D6D6; }
-    /* line 1310, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 554, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .optionsTitle {
       font-size: 16px;
       color: #FC657D;
       text-transform: capitalize; }
-    /* line 1315, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 559, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox input[type="checkbox"] {
       position: absolute;
       display: block;
@@ -6774,17 +5917,17 @@ background-position: 50%; */ }
       margin: 0;
       opacity: 0;
       z-index: 1; }
-    /* line 1328, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 571, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox label {
       display: inline-block;
       vertical-align: top;
       text-align: left; }
-    /* line 1335, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 576, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox label:before, .C5wrap .pageType-mix .checkbox label:after {
       content: '';
       display: block;
       position: absolute; }
-    /* line 1341, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 581, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox label:before {
       left: 0;
       top: 0;
@@ -6793,7 +5936,7 @@ background-position: 50%; */ }
       margin-right: 10px;
       background: #ddd;
       border-radius: 3px; }
-    /* line 1351, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 590, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix fieldset.checks .checkbox label:after {
       content: '';
       position: absolute;
@@ -6805,30 +5948,30 @@ background-position: 50%; */ }
       background: #fff;
       opacity: 0;
       pointer-events: none; }
-    /* line 1364, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 602, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox input:checked ~ label:after {
       opacity: 1; }
-    /* line 1368, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 605, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox input:focus ~ label:before {
       background: #eee; }
-    /* line 1384, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 608, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix #Container {
       min-height: 280px; }
-    /* line 1387, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 611, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .trumpTextOutside {
       height: 295px; }
-    /* line 1390, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 614, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .trumpCard {
       margin-top: 0px;
       margin-bottom: 0px; }
-    /* line 1395, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 618, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .mixContainer .mix, .C5wrap .pageType-mix .mixContainer .gap {
       width: 49.4%;
       height: 1px;
       display: inline-block;
       margin: 0;
       float: left; }
-    /* line 1402, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 625, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .mixContainer .mix {
       width: 32%;
       background: #F2F2F2;
@@ -6841,7 +5984,7 @@ background-position: 50%; */ }
       height: 275px;
       display: none;
       margin: 0px 3px 8px 7px; }
-    /* line 1417, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 638, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .pager-list {
       background: #5FEECE;
       clear: both;
@@ -6856,7 +5999,7 @@ background-position: 50%; */ }
       -webkit-box-shadow: 0 0 4px 1px #898989;
       -moz-box-shadow: 0 0 4px 1px #898989;
       box-shadow: 0 0 4px 1px #898989; }
-    /* line 1430, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 654, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .pager-list span {
       display: inline-block;
       background: #fff;
@@ -6867,14 +6010,14 @@ background-position: 50%; */ }
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       border-radius: 5px; }
-    /* line 1441, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 665, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .pager-list span.active {
       border-top: 1px solid #fff; }
-    /* line 1444, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 668, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .pager-list span.active, .C5wrap .pageType-mix .pager-list .active span {
       background: #FC657D;
       color: #fff; }
-    /* line 1453, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 676, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .fail-message {
       position: absolute;
       top: 50%;
@@ -6886,23 +6029,23 @@ background-position: 50%; */ }
       -webkit-transition: 150ms;
       -moz-transition: 150ms;
       transition: 150ms; }
-    /* line 1467, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 688, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .fail-message:before {
       content: '';
       display: inline-block;
       vertical-align: middle;
       height: 100%; }
-    /* line 1474, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 694, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .fail-message span {
       display: inline-block;
       vertical-align: middle;
       font-size: 20px;
       font-weight: 700; }
-    /* line 1481, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 700, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .fail .fail-message {
       opacity: 1;
       pointer-events: auto; }
-    /* line 1486, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 704, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix form.controls {
       background: #F2F2F2;
       margin: 0px 0 20px;
@@ -6918,80 +6061,80 @@ background-position: 50%; */ }
       -o-animation: thePulse 4s infinite;
       animation: thePulse 4s infinite;
       width: 216px; }
-    /* line 1503, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 721, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .formTitle p {
       font-size: 20px;
       font-family: "cs_regular", arial;
       text-transform: uppercase;
       margin-bottom: 20px; }
-    /* line 1509, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 727, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix label {
       display: inline-block;
       margin-right: 10px;
       margin-left: 25px;
       padding: 0;
       text-transform: lowercase; }
-    /* line 1517, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 734, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix select {
       display: inline-block;
       width: 100%; }
-    /* line 1522, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 738, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix fieldset {
       display: inline-block;
       width: 100%; }
-    /* line 1526, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 742, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix button#Reset {
       float: right; }
-    /* line 1529, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 745, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix button.btn {
       border: solid 1px #fff !important;
       vertical-align: bottom; }
-    /* line 1533, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 749, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix button.btn.sort {
       background: #FC657D; }
-    /* line 1536, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 752, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix fieldset, .C5wrap .pageType-mix input, .C5wrap .pageType-mix button {
       margin-bottom: 15px; }
-    /* line 1539, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 755, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .pageType-mix .checkbox {
       display: inline-block;
       padding-left: 0;
       margin-top: 0;
       margin-bottom: 0; }
     @media (max-width: 1199px) {
-      /* line 1546, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 762, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix form.controls {
         width: 165px; }
  }
     @media (max-width: 991px) {
-      /* line 1554, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 767, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix form.controls {
         width: 97%;
         text-align: left; }
 
-      /* line 1558, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 771, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix #Filters fieldset {
         width: 49.71%;
         vertical-align: top; }
 
-      /* line 1562, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 775, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .btn-primary {
         width: 180px; }
 
-      /* line 1565, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 778, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix #Filters fieldset, .C5wrap .pageType-mix .mixButtons {
         zoom: 1.8; }
  }
     @media (max-width: 896px) {
-      /* line 1570, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 783, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix #Filters fieldset {
         width: 100%; }
 
-      /* line 1573, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 786, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .btn-primary {
         width: 100%; }
 
-      /* line 1576, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 789, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .marginPadding {
         margin-left: 0;
         margin-right: 0;
@@ -6999,73 +6142,32 @@ background-position: 50%; */ }
         text-align: center; }
  }
     @media (max-width: 1199px) {
-      /* line 1586, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 797, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .mixContainer .mix {
         width: 46%; }
 
-      /* line 1589, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 800, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix button#Reset {
         float: none; }
  }
     @media (max-width: 991px) {
-      /* line 1595, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 805, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .mixContainer .mix {
         width: 48%;
         margin: 1%; }
  }
     @media (max-width: 756px) {
-      /* line 1607, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 811, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix .mixContainer .mix {
         width: 100%;
         margin: 1% 0; }
  }
     @media (max-width: 647px) {
-      /* line 1616, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 817, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .pageType-mix select {
         display: block; }
  }
-  /* line 1641, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .pageType-trumpCard .formblock {
-    display: none; }
-  /* line 1644, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .pageType-trumpCard .trumpTopSection .mainContentSec {
-    min-height: 125px; }
-  /* line 1647, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .pageType-trumpCard .trumpTopSection {
-    min-height: inherit !important; }
-  /* line 1652, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .pageType-trumpCard .sideForm {
-    background: #fff;
-    padding: 20px !important;
-    margin-top: 30px !important;
-    border: 1px solid #e51c26;
-    /*box-shadow*/
-    -webkit-box-shadow: 0px 0px 8px 0px #3D3D3D;
-    -moz-box-shadow: 0px 0px 8px 0px #3D3D3D;
-    box-shadow: 0px 0px 8px 0px #3D3D3D;
-    /*border-radius*/
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
-    margin-bottom: 0px !important; }
-    /* line 1667, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-trumpCard .sideForm h3 {
-      margin-top: 20px !important;
-      margin-bottom: 40px !important;
-      cursor: pointer; }
-  /* line 1679, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .mindMap .liveImages {
-    margin: 25px 0;
-    text-align: center; }
-  /* line 1684, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .mindMap .liveImages img {
-    margin: 12px;
-    display: inline-block;
-    -webkit-animation: thePulse 4s infinite;
-    -moz-animation: thePulse 4s infinite;
-    -o-animation: thePulse 4s infinite;
-    animation: thePulse 4s infinite; }
-  /* line 1731, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 833, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .main-content {
     /* set up site wide main text area rules */
     font-weight: 400;
@@ -7075,148 +6177,148 @@ background-position: 50%; */ }
     letter-spacing: 0;
     font-family: "aktiv-grotesk-std", sans-serif;
     font-weight: 300; }
-    /* line 1734, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 837, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content table td {
       background: #eee; }
-    /* line 1737, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 840, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content table {
       margin-bottom: 12px; }
-    /* line 1745, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 849, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content p.fancy-link a {
       color: #5FEECE;
       font-family: 'cs_regular', arial;
       font-size: 21px; }
-      /* line 1749, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 853, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .main-content p.fancy-link a:hover {
         color: #515151; }
-    /* line 1754, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 857, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content legend, .C5wrap .main-content label {
       color: #515151; }
-    /* line 1757, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 860, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h1 {
       font-family: "cs_regular", arial;
       text-transform: uppercase;
       font-size: 30px;
       font-weight: 200; }
-    /* line 1764, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 866, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h1, .C5wrap .main-content h2, .C5wrap .main-content h3, .C5wrap .main-content h4 {
       font-family: "aktiv-grotesk-std", sans-serif;
       margin-top: 10px; }
-    /* line 1770, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 871, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h3, .C5wrap .main-content h4, .C5wrap .main-content h5 {
       line-height: 19px;
       font-size: 21px;
       color: #F66279;
       line-height: 19px;
       margin-bottom: 7px; }
-    /* line 1777, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 878, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h1 {
       color: #5FEECE;
       font-size: 24px;
       margin-bottom: 10px;
       line-height: 31px; }
-    /* line 1783, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 884, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h2 {
       color: #F66279;
       font-size: 20px;
       line-height: 23px;
       margin-bottom: 10px; }
-    /* line 1789, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 890, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h3 {
       font-size: 19px;
       line-height: 22px;
       margin-bottom: 10px; }
-    /* line 1794, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 895, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content h4 {
       font-size: 18px;
       line-height: 23px;
       margin-bottom: 10px; }
-    /* line 1801, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 900, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content ul {
       margin-top: 10px;
       padding-bottom: 10px;
       padding-left: 30px; }
-    /* line 1809, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 907, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content li {
       letter-spacing: 0;
       padding-bottom: 5px;
       padding-top: 1px; }
-    /* line 1815, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 913, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content a {
       font-family: 'arial', Sans-Serif;
       color: #5FEECE; }
-      /* line 1818, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 916, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .main-content a:hover {
         color: #515151; }
-    /* line 1822, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 920, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .main-content p {
       margin-bottom: 10px;
       font-weight: 400; }
-  /* line 1832, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 925, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .contact-us-section {
     font-family: Arial, Helvetica, sans-serif;
     color: #5FEECE;
     padding: 2px 9px;
     margin: 0px 0 25px; }
-    /* line 1838, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 930, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .formblock, .C5wrap .contact-us-section .theForm {
       margin-bottom: 0px;
       /*          -moz-box-shadow: white 0 0 5px 0;
         -webkit-box-shadow: white 0 0 5px 0;
         box-shadow: white 0 0 5px 0; */
       behavior: url(behaviors/PIE.php); }
-    /* line 1846, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 939, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .checkboxPair {
       margin-top: -5px !important; }
-    /* line 1850, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 942, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .checkboxPair label input {
       margin-top: -3px !important;
       width: 20px !important;
       line-height: 60px !important; }
-    /* line 1856, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 947, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .checkboxList {
       margin-top: 20px !important; }
-    /* line 1860, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 950, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .field {
       margin-top: 11px; }
-    /* line 1862, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 953, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section label {
       margin-left: 0px;
       font-weight: normal; }
-    /* line 1866, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 957, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section form, .C5wrap .contact-us-section input, .C5wrap .contact-us-section textarea, .C5wrap .contact-us-section select {
       color: #000; }
-    /* line 1870, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 960, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section form {
       text-align: left;
       margin: 10px auto;
       width: auto; }
-    /* line 1876, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 966, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section textarea {
       margin-top: 5px; }
-    /* line 1882, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 969, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section select {
       height: 36px; }
-    /* line 1890, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 973, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section input {
       height: 36px;
       margin-top: 5px; }
-    /* line 1896, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 977, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section textarea, .C5wrap .contact-us-section input {
       width: 100%; }
-    /* line 1901, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 980, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .radioPair {
       margin-top: 20px; }
-      /* line 1905, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 982, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .radioPair input {
         width: 30px;
         margin-right: 9px;
         margin-top: -5px; }
-    /* line 1913, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 988, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section label {
       vertical-align: top;
       width: 100%; }
-    /* line 1915, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 992, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .submit {
       font-size: 18px !important;
       height: 36px !important;
@@ -7227,22 +6329,22 @@ background-position: 50%; */ }
       color: #000;
       font-size: 23px !important;
       margin-top: 24px; }
-      /* line 1925, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1002, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .submit:hover {
         background: #fff !important; }
-    /* line 1931, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1006, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h1 {
       margin: 10px 0px;
       font-size: 38px;
       line-height: 44px;
       font-weight: 700; }
-    /* line 1937, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1012, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h2 {
       margin: 10px 0px;
       font-size: 32px;
       line-height: 36px;
       font-weight: 700; }
-    /* line 1943, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1018, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h3 {
       margin: 25px 0px 1px;
       font-family: "cs_regular", arial;
@@ -7255,25 +6357,25 @@ background-position: 50%; */ }
       line-height: 30px;
       font-weight: 400;
       padding: 10px; }
-    /* line 1957, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1031, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h4 {
       margin: 10px 0px;
       font-size: 18px;
       line-height: 24px;
       font-weight: 700; }
-    /* line 1963, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1037, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h5 {
       margin: 10px 0px;
       font-size: 14px;
       line-height: 20px;
       font-weight: 700; }
-    /* line 1969, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1043, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section h6 {
       margin: 10px 0px;
       font-size: 12px;
       line-height: 18px;
       font-weight: 700; }
-    /* line 1976, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1049, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .button {
       display: inline-block;
       padding: 4px 15px;
@@ -7281,58 +6383,58 @@ background-position: 50%; */ }
       color: white;
       text-align: center;
       text-decoration: none; }
-    /* line 1984, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1057, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .map {
       overflow: hidden;
       margin-right: 17px;
       margin-left: 17px; }
-      /* line 1989, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1061, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .map .googleMapCanvas {
         border: solid 1px #FC657D; }
-    /* line 1993, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1065, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .contact-page-form {
       margin-right: 17px;
       margin-left: 17px; }
-    /* line 1997, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1069, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .contact-us-section .contact-details {
       margin-right: 17px;
       margin-left: 17px; }
     @media (max-width: 991px) {
-      /* line 2002, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1074, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .contact-details {
         margin-top: 35px; }
  }
     @media (max-width: 767px) {
-      /* line 2007, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1079, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .map {
         margin-bottom: 30px; }
 
-      /* line 2010, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1082, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .contact-us-section .contact-page-form.contact-padding {
         margin-bottom: 30px; }
  }
-  /* line 2017, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 1088, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .contactPage .contact-us-section form, .C5wrap .contactPage .contact-us-section textarea, .C5wrap .contactPage .contact-us-section select, .C5wrap .contactPage .contact-us-section input, .C5wrap .contactPage .contact-us-section label, .C5wrap .contactPage .contact-us-section p, .C5wrap .contactPage .contact-us-section a, .C5wrap .contactPage .contact-us-section li, .C5wrap .contactPage .contact-us-section ul, .C5wrap .contactPage .contact-us-section span {
     color: #000; }
-  /* line 2031, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 1095, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .footerSass .footer-box {
     width: 100%;
     text-align: center;
     margin-top: 80px; }
-    /* line 2035, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+    /* line 1099, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
     .C5wrap .footerSass .footer-box .tag-containe {
       text-align: center;
       width: 100%; }
-      /* line 2038, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1102, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .footerSass .footer-box .tag-containe a {
         font-size: 10px !important; }
-      /* line 2041, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1105, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .footerSass .footer-box .tag-containe p {
         margin-bottom: 8px !important; }
-      /* line 2044, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1108, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .footerSass .footer-box .tag-containe p.displayInline {
         margin-bottom: 0px !important; }
-      /* line 2047, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+      /* line 1111, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
       .C5wrap .footerSass .footer-box .tag-containe .displayInline {
         display: inline-block;
         padding: 0 2px;
@@ -7341,380 +6443,12 @@ background-position: 50%; */ }
         margin-top: 0px;
         text-decoration: none;
         font-size: 12px !important; }
-  /* line 2071, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 1126, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap button:focus {
     outline: 0 !important; }
-  /* line 2075, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .leftContactInfo li, .C5wrap .rightContactInfo li {
-    padding-top: 7px; }
-  /* line 2080, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-  .C5wrap .leftContactInfo ul {
-    margin-left: 37px; }
-  /* line 2087, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
+  /* line 1130, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
   .C5wrap .guestBook-formBlock input {
     height: 40px; }
-  @media (max-width: 1310px) {
-    /* line 2095, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap div.control_prev {
-      left: 10px; }
-
-    /* line 2098, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap div.control_next {
-      right: 10px; }
- }
-  @media (max-width: 1199px) {
-    /* line 2108, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap #imageSlider ul li .inside-slide {
-      padding: 5px 7.5%;
-      top: 128px; }
-
-    /* line 2113, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm {
-      position: relative;
-      width: 100%;
-      height: 84px;
-      display: inline-block;
-      background: #fff; }
-
-    /* line 2120, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .field {
-      display: inline-block;
-      width: 24%; }
-
-    /* line 2125, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .submit {
-      padding: 1px 8px;
-      font-size: 17px;
-      width: 87%; }
-
-    /* line 2131, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input {
-      margin-left: 10px;
-      margin-right: 10px;
-      border: solid 1px #e51c26;
-      text-align: center;
-      width: 97%;
-      height: 40px; }
-
-    /* line 2140, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .fields {
-      margin-left: 0; }
-
-    /* line 2144, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .submitBg {
-      display: inline-block;
-      width: 24%;
-      background: none; }
-
-    /* line 2150, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .fields {
-      display: inline-block;
-      width: 75%; }
-
-    /* line 2154, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .trumpTextOutside {
-      height: 260px; }
- }
-  @media (max-width: 1079px) {
-    /* line 2161, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap #imageSlider ul li .inside-slide {
-      padding: 5px 6%; }
- }
-  @media (max-width: 991px) {
-    /* line 2168, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .mainContentBg {
-      margin-left: 0px !important; }
-
-    /* line 2171, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .trumpTextOutside {
-      height: 195px; }
-
-    /* line 2175, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .inside-slide p {
-      font-size: 23px;
-      line-height: 32px;
-      margin: 13px 0 0px; }
-
-    /* line 2180, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap p.theName {
-      font-size: 27px !important;
-      margin-top: 26px !important; }
-
-    /* line 2184, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap #imageSlider ul li .inside-slide {
-      top: 103px; }
-
-    /* line 2187, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap input.required.text.large {
-      display: none; }
-
-    /* line 2191, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap input.required.text.small {
-      margin-left: 10px;
-      margin-right: 10px;
-      border: solid 1px #e51c26;
-      text-align: center;
-      width: 97%;
-      height: 40px;
-      display: block;
-      padding-top: 4px;
-      font-size: 14px; }
-
-    /* line 2202, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .headerSass .rightSide {
-      text-align: center; }
-
-    /* line 2205, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .headerButton {
-      margin: 20px auto; }
-
-    /* line 2208, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .contactIcons {
-      float: none;
-      display: inline-block; }
-
-    /* line 2213, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .threeButtons {
-      float: none;
-      display: inline-block;
-      margin-bottom: 12px; }
-
-    /* line 2219, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .logoLeft {
-      text-align: center; }
-
-    /* line 2223, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .twitterIcon {
-      float: left; }
-
-    /* line 2227, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .linkedinIcon {
-      float: right; }
-
-    /* line 2230, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .greyWrapThreeButtonsFooter {
-      text-align: center; }
-
-    /* line 2233, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .threeButtonsFooter {
-      display: inline-block; }
-
-    /* line 2236, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .getInTouch {
-      text-align: center; }
- }
-  @media (max-width: 814px) {
-    /* line 2242, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap div.control_prev, .C5wrap div.control_next {
-      opacity: 0; }
-
-    /* line 2245, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap #leftIcon {
-      left: 35px; }
-
-    /* line 2249, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap #rightIcon {
-      right: 35px; }
- }
-  @media (max-width: 720px) {
-    /* line 2258, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm {
-      height: inherit;
-      display: none; }
-
-    /* line 2263, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .fields {
-      width: 100%; }
-
-    /* line 2268, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .fields {
-      width: 100%; }
-
-    /* line 2272, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .field {
-      display: block;
-      width: 100%; }
-
-    /* line 2277, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .submitBg {
-      margin: 0 auto;
-      display: block; }
- }
-  @media (max-width: 710px) {
-    .C5wrap {
-      /*   #imageSlider {
-    height: auto !important;
-  } */ }
-      /* line 2284, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap .submitBg {
-        width: 40%; }
-      /* line 2291, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap div#imageSlider img {
-        /*display: none;*/ }
-      /* line 2295, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-      .C5wrap div#slideBtns {
-        display: none; } }
-  @media (max-width: 706px) {
-    /* line 2302, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap a.twitterIcon {
-      float: left; }
-
-    /* line 2306, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap a.linkedinIcon {
-      float: right; }
-
-    /* line 2310, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .logoLeft {
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-
-    /* line 2316, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .rightSide {
-      text-align: center; }
-
-    /* line 2322, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .socialMediaTop {
-      text-align: center; }
-
-    /* line 2326, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .mainContentBg {
-      margin: 30px auto; }
-
-    /* line 2329, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .getInTouch {
-      text-align: center; }
-
-    /* line 2333, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .leftContactInfo {
-      display: inline-block; }
-
-    /* line 2337, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .rightContactInfo {
-      display: inline-block; }
- }
-  @media (max-width: 620px) {
-    /* line 2345, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .iconImages {
-      display: inline-table; }
- }
-  @media (max-width: 540px) {
-    /* line 2352, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .submit {
-      width: 114%; }
- }
-  @media (max-width: 478px) {
-    /* line 2361, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .greyWrap h2 {
-      font-size: 25px;
-      padding-top: 8px;
-      text-align: center; }
- }
-  @media (max-width: 460px) {
-    /* line 2369, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .demoButton {
-      display: block;
-      margin-bottom: 8px; }
-
-    /* line 2374, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .freeTrialButton {
-      display: block;
-      margin-bottom: 8px; }
-
-    /* line 2379, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .requestButton {
-      display: block; }
-
-    /* line 2383, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .contactIcons {
-      margin-bottom: 8px; }
- }
-  @media (max-width: 455px) {
-    /* line 2389, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .trumpTextOutside {
-      height: 236px; }
- }
-  @media (max-width: 453px) {
-    /* line 2396, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .fields {
-      width: 98%; }
-
-    /* line 2401, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .submit {
-      width: 118%; }
-
-    /* line 2405, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .demoButtonFooter {
-      display: block;
-      margin-bottom: 8px; }
-
-    /* line 2410, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .freeTrialButtonFooter {
-      display: block;
-      margin-bottom: 8px; }
-
-    /* line 2415, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .requestButtonFooter {
-      display: block;
-      margin-bottom: 8px; }
-
-    /* line 2419, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .emailUs {
-      margin-right: 12px; }
- }
-  @media (max-width: 320px) {
-    /* line 2425, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input {
-      width: 94%; }
-
-    /* line 2428, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm input.required.text.small {
-      width: 94%; }
-
-    /* line 2432, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .pageType-default .contactUsForm .submit {
-      width: 177%;
-      margin-left: -24px; }
-
-    /* line 2438, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .greyWrap h2 {
-      font-size: 18px;
-      padding-top: 10px; }
-
-    /* line 2445, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .mainContentHead h2 {
-      text-align: center;
-      font-family: 'cs_regular', arial; }
-
-    /* line 2450, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .mainContentSec h4 {
-      text-align: center; }
-
-    /* line 2454, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .mainContentBg {
-      margin: 35px auto; }
-
-    /* line 2457, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .emailUs {
-      margin-left: 15px; }
-
-    /* line 2461, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .freeTrialButton {
-      margin-bottom: 5px; }
-
-    /* line 2465, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .requestButton {
-      margin-bottom: 5px; }
-
-    /* line 2469, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .demoButton {
-      margin-bottom: 5px; }
- }
-  @media (max-width: 300px) {
-    /* line 2475, C:/xampp3/htdocs/sites/mofo/themes/theme_by_chris_sowerby/processAndBuild/sass/style.scss */
-    .C5wrap .trumpCard span {
-      width: 37%; }
- }
 
 /*
 	jQuery.mmenu CSS
