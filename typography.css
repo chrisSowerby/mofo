@@ -1,0 +1,77 @@
+.small-left { 
+	padding-right: 15px !important; 
+	padding-bottom: 15px !important; 
+	max-width: 204px !important; 
+	height: auto !important;
+	float: left !important; 
+	width: auto !important;
+}
+.medium-left { 
+	float: left !important;
+	max-width: 305px !important; 
+	height: auto !important;
+	padding-right: 15px !important; 
+	padding-bottom: 15px !important; 
+	width: auto !important;
+}
+.large-left { 
+	float: left !important;
+	max-width: 572px !important; 
+	height: auto !important;
+	padding-right: 15px !important; 
+	padding-bottom: 15px !important; 
+	width: auto !important;
+}
+
+.small-right { 
+	padding-left: 15px !important; 
+	padding-bottom: 15px !important; 
+	max-width: 204px !important; 
+	height: auto !important;
+	float: right !important; 
+	width: auto !important;
+}
+.medium-right { 
+	float: right !important;
+	max-width: 305px !important; 
+	height: auto !important;
+	padding-left: 15px !important; 
+	padding-bottom: 15px !important; 
+	width: auto !important;
+}
+.large-right { 
+	float: right !important;
+	max-width: 572px !important; 
+	height: auto !important;
+	padding-left: 15px !important; 
+	padding-bottom: 15px !important; 
+	width: auto !important;
+}
+.fancy-link { 
+	/*see main-content a { blarrrr } for this setup*/
+	color: #428bca;  
+	font-family: 'cs_regular', arial;
+	font-size: 21px;
+}
+
+.columnbreak { display:block; border-bottom:1px dashed black; height:4px; /*margin: 0 30%;*/ color:#fff !important; }
+.columnbreak span, .columnbreak span span { color:#fff !important; }
+p .columnbreak { color:#fff !important; }
+.columnbreak span, .columnbreak span span { color:#fff !important; }
+/*
+.quote {
+  padding: 9px 15px !important;
+  border-style: dashed !important;
+  border-width: 1px 0px !important;
+  border-color: white !important;	 
+}
+*/
+@media (max-width: 700px) {
+
+	/*stop this from crushing the text on mobile*/
+	.userNotInEditMode .small-left, .userNotInEditMode .medium-left, .userNotInEditMode .large-left, .userNotInEditMode .small-right, .userNotInEditMode .medium-right, .userNotInEditMode .large-right {
+		display: block;
+		float: none !important;
+		margin: 0 auto;	
+	}
+}
