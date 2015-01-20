@@ -45,34 +45,6 @@
 
 
 
-<div class="greyWrap">
-  
-  <div class="container">
-  
-    <div class="row">
-    
-      <div class="col-md-12">  
-      
-        <div class="socialMediaTop">
-          <a class="twitterIcon" href="https://twitter.com/GtrakTracking"><img src="<?php echo $this->getThemePath()?>/processAndBuild/stylesheets/images/twitter.png"    alt="twitter"/></a> 
-          <a class="linkedinIcon" href="https://www.linkedin.com/company/gtrak-ltd"><img src="<?php echo $this->getThemePath()?>/processAndBuild/stylesheets/images/linkedin1.png" alt="LinkedIn"/></a>
-        </div> <!--socialMediaTop-->
-    
-      </div> <!--col-md-12--> 
-  
-    </div> <!--row-->
-  
-  </div> <!--container-->
-
-</div> <!--greyWrap--> 
-
-
-
-
-
-
-
-
 <div class="whiteWrap">
   
   <div class="container">
@@ -114,77 +86,26 @@
       </div> <!--col-md-6-->
       
         <div class="col-md-9">
+      
+          <div class="socialMediaTop">
+            <?php $this->inc('inc/store/socialBlock.php'); ?>         
+          </div> <!--socialMediaTop-->
+
+
+          <div class="topContact">
+            <img src="<?php echo $this->getThemePath()?>/processAndBuild/stylesheets/images/contact-icon.png" alt="click for contact us page."><p>Contact</p>
+          </div>
           
-          <div class="rightSide">
-            
-            <div class="contactIcons remove-add inline-blocks">
-              
-              <div class="telephone">
-              <img src="<?php echo $this->getThemePath()?>/processAndBuild/stylesheets/images/telephone1.png" alt="telephone icon">
-
-              <p><?php $a = new GlobalArea ('the tel'); $a->display($c); ?></p>
-              
-             
-            </div> <!--telephone-->  
-            
-              <div class="emailUs">
-              <img src="<?php echo $this->getThemePath()?>/processAndBuild/stylesheets/images/emailEnvelope.png" alt="email icon"/>
-              <p><?php $a = new GlobalArea ('the email'); $a->display($c); ?></p>
-              
-             
-            </div> <!--emailUs-->
-            
-            </div> <!--contactIcons--> 
-           
-            <div class="threeButtons inline-blocks">
-
-            
-              <?php $a = new GlobalArea ('the buttons'); $a->display($c); ?>
-               
-            </div> <!--threeButtons-->
-             
-            
+          <div class="rightSide remove-add">           
+            <?php 
+              $a = new GlobalArea ('Header Nav');  $a->display($c); 
+            ?>
           </div> <!--rightSide--> 
         </div> <!--col-md-6-->
       </div> <!--row close-->
     
   </div> <!--container close-->
 </div> <!--whiteWrap close-->
-
-
-
-
-
-
-<div class="greyWrapNav">
-  
-  <div class="container">
-  
-    <div class="row">
-    
-      <div class="col-md-12 remove-add">
-      
-            <?php 
-              $a = new GlobalArea ('Header Nav');  $a->display($c); 
-            ?>
-      
-      </div> <!--col-md-12 close-->
-     
-    </div> <!--row close-->
-   
-  </div> <!--container close-->
- 
-</div> <!--greyWrapNav close-->
-
-
-
-
-
-
-
-      
-   
-   
 
 
       <div style="display:none" class="thisPageInfo"> <!-- style="display:none" -->
